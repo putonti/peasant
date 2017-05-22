@@ -8,13 +8,14 @@ The following software must be installed and be included in the PATH.
 3. Python – Version 2.6+: https://www.python.org/downloads/
 4. BioPython Package 1.68: http://biopython.org/wiki/Download
    1. NumPy: http://www.scipy.org/scipylib/download.html
-1. Sickle: https://github.com/ucdavis-bioinformatics/sickle
+5. Sickle: https://github.com/ucdavis-bioinformatics/sickle
    1. Zlib: http://www.zlib.net/
-1. SPAdes 3.10.1: http://bioinf.spbau.ru/content/spades-download
-2. GLIMMER3: http://ccb.jhu.edu/software/glimmer/index.shtml
+6. SPAdes 3.10.1: http://bioinf.spbau.ru/content/spades-download
+7. tRNAScan-SE: http://eddylab.org/software.html
+8. GLIMMER3: http://ccb.jhu.edu/software/glimmer/index.shtml
    1. ELPH: http://www.cbcb.umd.edu/software/ELPH/
-1. BLAST+ Binaries: ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
-2. BBMap: https://sourceforge.net/projects/bbmap/
+9. BLAST+ Binaries: ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
+10. BBMap: https://sourceforge.net/projects/bbmap/
    1. JAVA v6+: https://www.java.com/en/download/ie_manual.jsp?locale=en  
 
 All binaries' directories must be added to system PATH.
@@ -25,7 +26,7 @@ All binaries' directories must be added to system PATH.
 The script g3-iterated-viral.csh should be located in the same folder as peasant.py. Note, this script includes 3 paths which must be set upon installation. It must also be an executable.
 
 
-The peasant.py script must be modified by the user to set the path where the annotation databases are located:  
+The peasant.py script must be modified by the user to set the path where the annotation (RNA and bacteria) databases are located:  
 `database_path='/mydirectory/peasant/databases'`
 
 Download the RNA databases from github: rna_databases.tar file and put (uncompressed) in your database_path folder.
